@@ -17,6 +17,11 @@ boot_splash/bg_color=Color(0.141176, 0.141176, 0.141176, 1)
 boot_splash/show_image=false
 config/icon="res://icon.svg"
 
+[compression]
+
+formats/zlib/compression_level=9
+formats/gzip/compression_level=9
+
 [rendering]
 
 renderer/rendering_method="mobile"
