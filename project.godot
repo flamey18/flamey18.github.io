@@ -19,10 +19,14 @@ config/icon="res://icon.svg"
 
 [compression]
 
+formats/zstd/long_distance_matching=true
+formats/zstd/compression_level=22
 formats/zlib/compression_level=9
 formats/gzip/compression_level=9
 
 [rendering]
 
 renderer/rendering_method="mobile"
+textures/vram_compression/import_s3tc_bptc=true
 textures/vram_compression/import_etc2_astc=true
+textures/webp_compression/compression_method=6
